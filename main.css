@@ -1,0 +1,658 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(14, 47, 54);
+    padding: 0px;
+    background-image:url("img/nights.png");
+    background-attachment: scroll;
+    background-size: auto;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+
+#_container {
+    margin: 0px auto;
+    width: 1024px;
+    background-color: rgb(255, 254, 246);
+    background-image:url("img/back.png");
+    background-attachment: scroll;
+    background-size: auto;
+    box-shadow: rgb(10, 29, 34) 0px 3px 10px 5px;
+    position: relative;
+    padding: 5px 20px;
+    padding-bottom: 100px;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+
+#_nav {
+    float: none;
+    height: 50px;
+    margin: 0px auto;
+    clear: none;
+    width: 100%;
+    min-width: 0px;
+    padding: 10px 140px;
+}
+
+#text {
+    float: left;
+    font-size: 1.2em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 100;
+    line-height: 1em;
+    margin: 8px 30px 0px 0px;
+    clear: none;
+    min-height: 0px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    color: rgb(50, 103, 133);
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: normal;
+    font-family: dawning-of-a-new-day;
+}
+#_nav a {
+    transition: all 0.1s;
+}
+#_nav a:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+#text2 {
+    float: left;
+    font-size: 1.2em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 100;
+    line-height: 1em;
+    margin: 8px 30px 0px 0px;
+    clear: none;
+    min-height: 0px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    color: rgb(50, 103, 133);
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: normal;
+    font-family: dawning-of-a-new-day;
+}
+
+#text3 {
+    float: left;
+    font-size: 1.2em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 100;
+    line-height: 1em;
+    margin: 8px 30px 0px 0px;
+    clear: none;
+    min-height: 0px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    color: rgb(50, 103, 133);
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: normal;
+    font-family: dawning-of-a-new-day;
+}
+
+#text4 {
+    float: left;
+    font-size: 1.2em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 100;
+    line-height: 1em;
+    margin: 8px 0px 0px;
+    clear: none;
+    min-height: 0px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    color: rgb(50, 103, 133);
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: normal;
+    font-family: dawning-of-a-new-day;
+}
+
+#text1 {
+    float: left;
+    font-size: 1.2em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 100;
+    line-height: 1em;
+    margin: 8px 30px 0px 0px;
+    clear: none;
+    min-height: 0px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    color: rgb(50, 103, 133);
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: normal;
+    font-family: dawning-of-a-new-day;
+}
+
+.shadowbox {
+    box-shadow: rgb(200, 200, 200) 0px 1px 1px 1px;
+}
+
+#image {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    visibility: hidden;
+    position: absolute;
+}
+
+#image3 {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#box {
+    float: left;
+    height: 50px;
+    margin-left: -17.826705%;
+    margin-top: -10px;
+    clear: none;
+    width: 9.943182%;
+}
+
+#image1 {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 19.732143%;
+    margin-top: 8px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#box1 {
+    float: left;
+    height: 50px;
+    margin-left: 105.917081%;
+    margin-top: -50px;
+    clear: both;
+    width: 9.943182%;
+    margin-right: 0%;
+}
+
+#image2 {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 19.732143%;
+    margin-top: 8px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#_date-emblem {
+    height: 30px;
+    width: 126px;
+    left: 50%;
+    margin-left: -63px;
+    position: absolute;
+    z-index: 9999;
+    background-image:url("img/back.png");
+    background-attachment: scroll;
+    background-size: auto;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-width: 1px;
+    border-bottom-style: outset;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    box-shadow: rgb(190, 190, 190) 0px 2px 1px 0px;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+
+#_emblem-text {
+    float: left;
+    font-size: 1.1em;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: 100;
+    line-height: 1em;
+    margin-left: 2px;
+    margin-top: 7px;
+    font-family: italianno;
+    color: rgb(34, 83, 102);
+    letter-spacing: 2px;
+    text-indent: 0px;
+    padding-left: 2px;
+}
+
+.fancy-border {
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    width: 1024px;
+    margin-top: -39px;
+    margin-left: -20px;
+    background-image:url("img/border.png");
+    background-attachment: scroll;
+    background-size: auto;
+    position: relative;
+    opacity: 0.96;
+    background-position: 0% 0%;
+    background-repeat: repeat no-repeat;
+}
+
+
+
+.letter {
+    height: 268px;
+    margin-top: -10px;
+    background-color: rgba(255, 255, 255, 0.792157);
+    border: 1px ridge rgba(241, 241, 241, 0.933333);
+    box-shadow: rgb(199, 199, 199) 0px 1px 3px 0px;
+}
+
+#image4 {
+    float: left;
+    width: auto;
+    max-width: 51.22471%;
+    height: auto;
+    margin-left: -0.09410202%;
+    margin-top: 21.3125px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#text7 {
+    float: left;
+    font-size: 1.1em;
+    width: 51.174526%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 26.079694%;
+    margin-top: 25.875px;
+    clear: both;
+    min-height: 105px;
+    font-family: georgia;
+}
+
+#textspan2 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    text-decoration: underline;
+}
+
+#image5 {
+    float: left;
+    width: auto;
+    max-width: 26.796933%;
+    height: auto;
+    margin-left: 20.052033%;
+    margin-top: 4.6875px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+.col3 {
+    float: left;
+    font-size: 1.2em;
+    width: 30%;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-top: 50px;
+    margin-left: 60px;
+    clear: none;
+    font-family: parisienne;
+    color: rgb(51, 51, 51);
+}
+.col4 {
+    float: left;
+    font-size: 1.2em;
+    width: 60%;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-top: 50px;
+    margin-left: 30px;
+    clear: none;
+    font-family: parisienne;
+    color: rgb(51, 51, 51);
+}
+
+
+
+.directions {
+    margin-top: 10px;
+    float: right;
+    font-size: 1em;
+    text-align: center;
+    color: rgb(51, 51, 51);
+    width: 55%;
+    font-family: georgia;
+}
+
+#textspan3 {
+    float: none;
+    font-size: 1.5em;
+    line-height: 1em;
+    font-family: parisienne;
+    color: rgb(46, 70, 112);
+    text-decoration: none;
+}
+
+#textspan5 {
+    float: none;
+    font-size: 0.8em;
+    line-height: 1.4em;
+}
+
+#textspan6 {
+    float: none;
+    font-size: 0.8em;
+    line-height: 1.4em;
+    font-weight: 100;
+    font-family: georgia;
+}
+
+#textspan1 {
+    font-size: 0.9em;
+    line-height: 1.4em;
+    font-family: georgia;
+}
+
+#textspan4 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(46, 70, 112);
+    text-decoration: none;
+    font-family: parisienne;
+}
+
+#text9 {
+    float: left;
+    font-size: 1.2em;
+    width: 57.50921%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 1.273501%;
+    margin-top: 43.5px;
+    clear: none;
+    min-height: 146.3125px;
+    font-family: parisienne;
+    color: rgb(51, 51, 51);
+    margin-right: 0%;
+}
+
+#textspan7 {
+    float: none;
+    font-size: 1.5em;
+    line-height: 1em;
+    font-family: parisienne;
+    color: rgb(46, 70, 112);
+    text-decoration: none;
+}
+
+#textspan8 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(46, 70, 112);
+    text-decoration: none;
+    font-family: parisienne;
+}
+
+#textspan9 {
+    float: none;
+    font-size: 0.8em;
+    line-height: 1.4em;
+}
+
+#textspan10 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    font-family: georgia;
+}
+
+#textspan11 {
+    float: none;
+    font-size: 0.9em;
+    line-height: 1.4em;
+    font-family: georgia;
+}
+
+#map_1 {
+    height: 255px;
+    background-image:url("img/Screen%20Shot%202014-01-28%20at%204.39.57%20PM.png");
+}
+
+.map {
+    float: left;
+    width: 39.5%;
+    margin-left: 15px;
+    margin-top: 0px;
+    background-attachment: scroll;
+    background-size: contain;
+    border: 1px solid rgb(143, 143, 143);
+    box-shadow: rgba(197, 197, 197, 0.882353) 0px 3px 3px 0px;
+    background-position: 0% 0%;
+    background-repeat: no-repeat no-repeat;
+    clear: both;
+    display: block;
+    transition: all 0.25s;
+}
+.map:hover {
+    box-shadow: rgba(220, 220, 220, 0.882353) 0px 3px 3px 0px;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+#map_2 {
+    height: 264px;
+    background-image:url("img/map_2.png");
+}
+#map_3 {
+    height: 264px;
+    background-image:url("img/map_3.png");
+}
+
+h3 {
+    
+}
+h3 {
+    margin: 0px;  
+}
+.header {
+    font-size: 1.6em;
+    line-height: 1em;
+    font-family: parisienne;
+    color: rgb(46, 70, 112);
+    display: block;
+    clear: both;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.content {
+    font-size: 1em;
+    line-height: 1.1em;
+    font-weight: 100;
+    font-family: georgia;
+    padding: 0px 0px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: -3px;
+    margin-left: 10px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.help-link, .help-link:hover, .help-link:active, .help-link:visited {
+    color: rgb(24, 67, 124);
+    text-decoration: underline;
+}
+.help-link:hover {
+    text-decoration: none;
+}
+
+.span2 {
+    width: 48%;
+    float: left;
+}
+
+.spanright {
+    margin-right: 10px;
+    float: right;
+}
+
+.icon.center {
+    left: -5px;
+}
+
+.header-link {
+    font-size: 1.2em;
+    margin-left: -30px;
+    display: block;
+}
+
+.smaller {
+    font-size: 0.9em;
+}
+
+.clear {
+    clear: both;
+}
+
+.direction-pane {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.pad-container {
+    padding: 2px;
+}
+
+.slideshow-container {
+    height: 400px;
+    overflow: hidden;
+    width: auto;
+    margin-top: 10px;
+    margin-left: -20px;
+    margin-right: -20px;
+    position: relative;
+}
+
+.indenter {
+    width: 25px;
+    display: block;
+    float: left;
+}
+
+.help-list {
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.help-list li {
+    padding-bottom: 10px;
+}
+
+.bridesmaid-dress {
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+
+#flowergirl-dress {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.slideshow {
+    width: auto;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+}
+.slideshow img {
+    float: left;
+}
+
+#savethedate {
+    float: right;
+    right: 10px;
+    width: 48%;
+    position: relative;
+    top: -40px;
+    height: 300px;
+    border: 1px ridge rgba(241, 241, 241, 0.933333);
+    box-shadow: rgb(199, 199, 199) 0px 1px 3px 0px;
+}
+
+.centered {
+    text-align:center;
+    padding: 20px;
+}
