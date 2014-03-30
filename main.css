@@ -619,7 +619,7 @@ h3 {
 .bridesmaid-dress {
     float: left;
     position: relative;
-    margin-bottom: 90px;
+    margin-bottom: 10px;
     margin-right: 10px;
 }
 
@@ -627,8 +627,14 @@ h3 {
 #flowergirl-dress {
     float: right;
     margin-left: 10px;
-    margin-bottom: 10px;
     position: relative;
+}
+
+#groomsmen-tux {
+    clear: both;
+    position: relative;
+    height: 310px;
+    margin-bottom: 30px;
 }
 
 .slideshow {
